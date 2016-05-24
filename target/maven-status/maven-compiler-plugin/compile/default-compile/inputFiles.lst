@@ -1,0 +1,14 @@
+/home/moliq/Documents/workspace-sts-3.7.3.RELEASE/MoliQ-AutoParts/src/main/java/pl/moliq/autoparts/controller/ProductController.java
+/home/moliq/Documents/workspace-sts-3.7.3.RELEASE/MoliQ-AutoParts/src/main/java/pl/moliq/autoparts/config/WebAppInitializer.java
+/home/moliq/Documents/workspace-sts-3.7.3.RELEASE/MoliQ-AutoParts/src/main/java/pl/moliq/autoparts/services/ProductService.java
+/home/moliq/Documents/workspace-sts-3.7.3.RELEASE/MoliQ-AutoParts/src/main/java/pl/moliq/autoparts/controller/HomeController.java
+/home/moliq/Documents/workspace-sts-3.7.3.RELEASE/MoliQ-AutoParts/src/main/java/pl/moliq/autoparts/repository/ProductRepository.java
+/home/moliq/Documents/workspace-sts-3.7.3.RELEASE/MoliQ-AutoParts/src/main/java/pl/moliq/autoparts/repository/CarRepository.java
+/home/moliq/Documents/workspace-sts-3.7.3.RELEASE/MoliQ-AutoParts/src/main/java/pl/moliq/autoparts/services/CarService.java
+/home/moliq/Documents/workspace-sts-3.7.3.RELEASE/MoliQ-AutoParts/src/main/java/pl/moliq/autoparts/domain/Car.java
+/home/moliq/Documents/workspace-sts-3.7.3.RELEASE/MoliQ-AutoParts/src/main/java/pl/moliq/autoparts/servicesimpl/ProductServiceImpl.java
+/home/moliq/Documents/workspace-sts-3.7.3.RELEASE/MoliQ-AutoParts/src/main/java/pl/moliq/autoparts/servicesimpl/CarServiceImp.java
+/home/moliq/Documents/workspace-sts-3.7.3.RELEASE/MoliQ-AutoParts/src/main/java/pl/moliq/autoparts/config/ShopConfig.java
+/home/moliq/Documents/workspace-sts-3.7.3.RELEASE/MoliQ-AutoParts/src/main/java/pl/moliq/autoparts/repositoryimpl/ProductRepositoryImpl.java
+/home/moliq/Documents/workspace-sts-3.7.3.RELEASE/MoliQ-AutoParts/src/main/java/pl/moliq/autoparts/repositoryimpl/CarRepositoryImpl.java
+/home/moliq/Documents/workspace-sts-3.7.3.RELEASE/MoliQ-AutoParts/src/main/java/pl/moliq/autoparts/domain/Product.java
