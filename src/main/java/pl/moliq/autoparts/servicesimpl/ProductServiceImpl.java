@@ -32,6 +32,10 @@ public List<Product> getProductsByCategory(String category) {
 
 public List<Product> removeProductById(long id) {
 	return productRepository.removeProductById(id);
+}
+
+public List<Product> addProductToList(Product product) {
+	return productRepository.addProductToList(product);
 } 
 
 

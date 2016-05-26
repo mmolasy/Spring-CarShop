@@ -10,5 +10,6 @@ public interface ProductRepository {
 	public Product getProductById(long id);
 	public List<Product> getProductsByCategory(String category);
 	public List<Product> removeProductById(long id);
+	public List<Product> addProductToList(Product product);
 	
 }

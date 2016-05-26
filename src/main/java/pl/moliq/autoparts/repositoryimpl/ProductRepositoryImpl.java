@@ -83,14 +83,19 @@ public class ProductRepositoryImpl implements ProductRepository{
 
 	public Product getProductById(long id) {
 		
-		Product productFounded = new Product();
+		Product productFounded=null;
 		
+		try{
 		for(Product x: productList)
 		{
 			if(x.getId() == id)
 				productFounded = x;
 		}
 		return productFounded;
+		}catch(NullPointerException e){
+			System.err.println("Product not found");
+		}
+		return null;
 	}
 
 	public List<Product> getProductsByCategory(String category) {
@@ -115,6 +120,12 @@ public class ProductRepositoryImpl implements ProductRepository{
 
 	public void setProductList(List<Product> productList) {
 		this.productList = productList;
+	}
+
+
+	public List<Product> addProductToList(Product product) {
+		productList.add(product);
+		return productList;
 	}
 	
 

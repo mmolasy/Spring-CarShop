@@ -1,6 +1,8 @@
 package pl.moliq.autoparts.domain;
-
 import java.util.Date;
+
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 public class Car {
 	private String brand;
@@ -37,6 +39,15 @@ public class Car {
 	{
 		return brand+" "+model+" "+generation+" "+bodyVersion;
 	}
-
+	
+	@Override
+	public boolean equals(Object that){
+		return EqualsBuilder.reflectionEquals(this, that, "brand", "model", "generation", "bodyVersion");	
+	}
+	
+	@Override
+	public int hashCode(){
+		return HashCodeBuilder.reflectionHashCode(this, "brand", "model", "generation", "bodyVersion");
+	}
 
 }
